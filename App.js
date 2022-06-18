@@ -31,7 +31,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.tasksWrapper}>
-        <Text style={styles.sectionTitle}>Today's Tasks: </Text>
+        <Text style={styles.sectionTitle}>Your's Tasks: </Text>
 
         <View style={styles.items}>
           {taskItems.map((item, index) => {
